@@ -38,13 +38,13 @@
     color: black;
   }
 .background {
-    background-image: url(/arc-reactor-iron-man-marvel-comics-wallpaper.jpg);  
+    background-image: url(/lightning.png);  
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1200px 700px;
     width: 100vw; /* Ensures the element spans the full viewport width */
     height: 100vh; /* Ensures the element spans the full viewport height */
-    background-color: darkred  
+    background-color: black
   }
 
  .p {
