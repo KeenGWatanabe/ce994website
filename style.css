@@ -20,17 +20,7 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
-/* Multiple #id styles*/  
-  #myInput, 
-  #myInput1, 
-  #myInput2,
-  #myInput3,
-  #myInput4 {   
-    box-sizing: border-box; 
-    background-position: 14px 12px; 
-    background-repeat: no-repeat; 
-    
-  }  
+
   #myInput:focus {
     outline: 3px solid #ddd;
   }  
@@ -47,4 +37,29 @@
   input{
     color: black;
   }
-  
+.background {
+    background-image: url(/arc-reactor-iron-man-marvel-comics-wallpaper.jpg);  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1200px 700px;
+    width: 100vw; /* Ensures the element spans the full viewport width */
+    height: 100vh; /* Ensures the element spans the full viewport height */
+    background-color: darkred  
+  }
+
+ .p {
+    color: cyan; 
+    font-size: 25px; 
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: left; 
+    padding-top: 20px;
+  } 
+
+  .h1 {
+    color: white; 
+    font-size: 30px; 
+    font-family: 'Courier New', Courier, monospace; 
+    text-align: center; 
+    padding-top: 20px;
+ } 
