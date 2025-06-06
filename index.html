@@ -12,13 +12,36 @@
 <body class = "background">
 
 <div class="ctrDiv">
-  <b><span style="color: lightgray;"> <span style="font-family: arial;">Welcome to our Capstone Project</b><br></span>
-</div><br>
+  <b><span style="color: lightgray; font-family: arial;">Welcome to our Capstone Project</span>
+  </b>
+</div>  
+<div class="ctrDiv">  
+  <p class="p">
+    <a style="color: orange;">Chill Coachees</a>
+  </p>
+</div>
+
+<br>
 
 <p class ="p">Frequently used links</p>
-<button class="dropbtn" onclick="window.open('http://ce-grp-47fcb8e53-app-lb-1946085924.us-east-1.elb.amazonaws.com','noopener noreferrer','_blank');">Deployed site</button>
-<button class="dropbtn" onclick="window.open('https://www.mongodb.com/cloud/atlas/register', 'noopener noreferrer', '_blank');">Mongo login</button>
-<button class="dropbtn" onclick="hider"><b href="https://m3l415072023.signin.aws.amazon.com/console" rel="noopener noreferrer" target="_blank">AWS login</b></button>
+
+
+<!--FREQ dropdown--> 
+<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown4')" style="color: yellow;">Deployed sites</button>  
+  <div class="dropdown-content" id="myDropdown4">
+    <!-- <input id="myInput4" onkeyup="filterDropdown('myInput4','myDropdown4')" type="text" />        -->
+  <a href="http://ce-grp-47fcb8e53-app-lb-1946085924.us-east-1.elb.amazonaws.com" rel="noopener noreferrer" target="_blank">v1.0</a>
+  <a href="http://ce-grp-4.sctp-sandbox.com/" rel="noopener noreferrer" target="_blank">V1.0 route53</a>
+  <a href="" rel="noopener noreferrer" target="_blank">v2.0</a>
+  <a href="" rel="noopener noreferrer" target="_blank">v2.0 route53</a>
+  <a href="" rel="noopener noreferrer" target="_blank">Modular</a>
+  <a href="" rel="noopener noreferrer" target="_blank">Diagram</a>
+  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  	  </div>
+</div>
+<button class="dropbtn" onclick="window.open('https://www.mongodb.com/cloud/atlas/register','noopener noreferrer','_blank')">MongoDB</button>
+
+<button class="dropbtn" onclick="window.open('https://m3l415072023.signin.aws.amazon.com/console','noopener noreferrer','_blank')">AWS login</button>
 
 <!--CHATBOT-->
  <a style="cursor: pointer;" id="astronaut" onclick="window.open('https://www.chatbase.co/dashboard/ce994/chatbot/5DIvrIOct-Qgrj4OObaOr', 'chatBot','pdt','resizable,height=500,width=600');return false;" rel="noopener noreferrer" target="_blank">
@@ -98,9 +121,9 @@
 </div>
  
 <!--INFRA dropdown--> 
-<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown3')" style="color: cyan;">Infra</button>  
-  <div class="dropdown-content" id="myDropdown3">
-    <!-- <input id="myInput3" onkeyup="filterDropdown('myInput3','myDropdown3')" type="text" />        -->
+<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown4')" style="color: cyan;">Infra</button>  
+  <div class="dropdown-content" id="myDropdown4">
+    <!-- <input id="myInput4" onkeyup="filterDropdown('myInput4','myDropdown4')" type="text" />        -->
   <a href="" rel="noopener noreferrer" target="_blank">Iac</a>
   <a href="" rel="noopener noreferrer" target="_blank">Security</a>
   <a href="" rel="noopener noreferrer" target="_blank">Monitoring</a>
