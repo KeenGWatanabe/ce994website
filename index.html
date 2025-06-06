@@ -16,8 +16,8 @@
 </div><br>
 
 <p class ="p">Frequently used links</p>
-<button class="dropbtn" onclick="hider"><b href="http://ce-grp-47fcb8e53-app-lb-1946085924.us-east-1.elb.amazonaws.com"  rel="noopener noreferrer" target="_blank">Deployed site</b></button>
-<button class="dropbtn" onclick="hider"><b href="https://www.mongodb.com/cloud/atlas/register" rel="noopener noreferrer" target="_blank">Mongo login</b></button>
+<button class="dropbtn" onclick="window.open('http://ce-grp-47fcb8e53-app-lb-1946085924.us-east-1.elb.amazonaws.com','noopener noreferrer','_blank');">Deployed site</button>
+<button class="dropbtn" onclick="window.open('https://www.mongodb.com/cloud/atlas/register', 'noopener noreferrer', '_blank');">Mongo login</button>
 <button class="dropbtn" onclick="hider"><b href="https://m3l415072023.signin.aws.amazon.com/console" rel="noopener noreferrer" target="_blank">AWS login</b></button>
 
 <!--CHATBOT-->
@@ -51,9 +51,20 @@
    </div>
     <a href="!" onclick="toggleMe('para6'); return false">◁plan</a><br />
     <!--toggle2--->
-        <a href="https://blogger.googleusercontent.com/img/a/AVvXsEg3BU6h_j9v-9FdxNFzkbGa9t1hmipZ9sk-weNcFvrGzy0CCRfXLmNoRiP5d5MWLvMAWeFA3mJ_rO5ObvsAoxvnZsokCBrrR1dUu8mYGKXwmf0-oRhl1JbejxpGpObWYUcopBU14XinMJr13TKt4ex5RlQy7G4ou196Lg0vCSgzHgsJ7B2xo88TUd5M5gLQ" rel="noopener noreferrer" target="_blank">team challenges</a>
+        
     </div>
 </div>     
+<!--DEPLOY dropdown--> 
+<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown4')" style="color: yellow;">Kickoff</button>  
+  <div class="dropdown-content" id="myDropdown4">    
+    <!--input id="myInput4" onkeyup="filterDropdown('myInput4','myDropdown4')" type="text" /-->
+    <a href="https://drive.google.com/drive/folders/1P_9nYcJYzuEWiEG63_-5iiEBrC_kMgoJ?usp=drive_link" rel="noopener noreferrer" target="_blank">Capstone folder</a>
+    <a href="https://blogger.googleusercontent.com/img/a/AVvXsEg3BU6h_j9v-9FdxNFzkbGa9t1hmipZ9sk-weNcFvrGzy0CCRfXLmNoRiP5d5MWLvMAWeFA3mJ_rO5ObvsAoxvnZsokCBrrR1dUu8mYGKXwmf0-oRhl1JbejxpGpObWYUcopBU14XinMJr13TKt4ex5RlQy7G4ou196Lg0vCSgzHgsJ7B2xo88TUd5M5gLQ" rel="noopener noreferrer" target="_blank">team challenges</a>
+  
+  <a href="https://cloudzengr.blogspot.com/2025/05/aws-email-service.html" rel="noopener noreferrer" target="_blank">Lesson notes</a>              
+  <a href="" rel="noopener noreferrer" target="_blank"></a>	
+    </div>
+</div>
 
 
 <!--REPOS dropdown-->  <div class="dropdown"> 
@@ -71,17 +82,20 @@
   <a href="" rel="noopener noreferrer" target="_blank"></a>
   </div>
 </div>
-<!--DEPLOY dropdown--> 
-<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown4')" style="color: yellow;">Deploy</button>  
-  <div class="dropdown-content" id="myDropdown4">    
-    <input id="myInput4" onkeyup="filterDropdown('myInput4','myDropdown4')" type="text" />
-    <a href="https://drive.google.com/drive/folders/1P_9nYcJYzuEWiEG63_-5iiEBrC_kMgoJ?usp=drive_link" rel="noopener noreferrer" target="_blank">Capstone folder</a>
+<!--INFRA dropdown--> 
+<div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown3')" style="color: cyan;">Tools</button>  
+  <div class="dropdown-content" id="myDropdown3">
+    <!-- <input id="myInput3" onkeyup="filterDropdown('myInput3','myDropdown3')" type="text" />        -->
   <a href="https://app.snyk.io/login?redirectUri=L29yZy9rZWVuZ3dhdGFuYWJl&from=snyk_auth_link" rel="noopener noreferrer" target="_blank">Snyk dashboard</a>
-  <a href="https://cloudzengr.blogspot.com/2025/05/aws-email-service.html" rel="noopener noreferrer" target="_blank">Lesson notes</a>              
-  <a href="" rel="noopener noreferrer" target="_blank">Deepseek</a>	
-    </div>
+  <a href="https://github.com/KeenGWatanabe/g4infra/blob/rger/images/GitPullRequest.png" rel="noopener noreferrer" target="_blank">Git Pull-Request</a>
+  <a href="https://github.com/KeenGWatanabe/g4infra/blob/rger/images/ecsIAMconfig.png" rel="noopener noreferrer" target="_blank">Terraform ECS</a>
+  <a href="https://github.com/KeenGWatanabe/g4app/blob/main/db/connect.js" rel="noopener noreferrer" target="_blank">Configuring App for SecretsMgr</a>
+  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  	  </div>
 </div>
-
  
 <!--INFRA dropdown--> 
 <div class="dropdown"> <button class="dropbtn" onclick="toggleDropdown('myDropdown3')" style="color: cyan;">Infra</button>  
@@ -92,13 +106,13 @@
   <a href="" rel="noopener noreferrer" target="_blank">Monitoring</a>
   <a href="" rel="noopener noreferrer" target="_blank">Reliability</a>
   <a href="" rel="noopener noreferrer" target="_blank">Modular</a>
-  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  <a href="" rel="noopener noreferrer" target="_blank">Diagram</a>
   <a href="" rel="noopener noreferrer" target="_blank"></a>
   	  </div>
 </div>
 <!--m1 dropdown-->  <div class="dropdown"> 
   <button class="dropbtn" onclick="toggleDropdown('myDropdown0')" style="color: limegreen;">Closing</button>  <div class="dropdown-content" id="myDropdown0">    
-  <input id="myInput0" onkeyup="filterDropdown('myInput0','myDropdown0')" type="text" />     
+  <!--input id="myInput0" onkeyup="filterDropdown('myInput0','myDropdown0')" type="text" /-->     
  
   <a href="https://www.chatbase.co/dashboard/ce994/chatbot/5DIvrIOct-Qgrj4OObaOr" rel="noopener noreferrer" target="_blank">chatbot</a>
    <!--toggle3--->
@@ -122,7 +136,7 @@
    </div>
     <a href="!" onclick="toggleMe('para8'); return false">◁with</a><br />
     <!--toggle4--->  
-  <a href="" rel="noopener noreferrer" target="_blank"></a>
+  <a href="" rel="noopener noreferrer" target="_blank">Discovery/Learning</a>
   	  </div>
 </div>
 <br /><p></p>
