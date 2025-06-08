@@ -40,7 +40,7 @@
     color: black;
   }
 .background {
-    background-image: url(/lightning.png);  
+    background-image: url(/images/lightning.png);  
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1200px 700px;
